@@ -1,0 +1,8 @@
+maven管理项目依赖、源码编译及打包
+项目分三块
+1.asjee-core 框架核心
+2.asjee-moudules 模块功能
+3.asjee-web 前端页面显示
+
+asjee-parent作为依赖的总定义：
+	里面定义了各个项目模块的依赖信息，各个项目模块pom继承该pom
